@@ -65,6 +65,41 @@ nav ul {
 
 }
 
+table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+
+  /* styles for the th and td */
+  th, td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+  }
+
+  /* styles for the th */
+  th {
+    background-color: #1d1d1c;
+    color: #ffffff;
+  }
+
+  /* styles for caption */
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  footer{
+    clear: both;
+    background-image: linear-gradient(to right,#D1E9F1, #1E90FF);
+    text-align: center;
+  }
+
+
 
 
 /* article {
