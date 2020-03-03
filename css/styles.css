@@ -2,10 +2,83 @@ body{
   background-color: #D1E9F1;
 }
 
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+/* add styles for the unordered list in teh nav */
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add style for the list items in the nav */
+nav li {
+  background-color: #1E90FF;
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles fro teh anchor tag inside the li */
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+.history{
+
+  background-image: linear-gradient(to right,#D1E9F1, #1E90FF);
+    border-radius: 2em 0 2em 0;
+    margin: 0.5%;
+    padding: 0.5%;
+    text-align: center;
+    width: 95%
+}
+
+.today{
+
+  background-image: linear-gradient(to bottom,#D1E9F1, #1E90FF);
+    border-radius: 2em 0 2em 0;
+    margin: 0.5%;
+    padding: 0.5%;
+    text-align: center;
+    width: 95%
+
+}
+
+article img{
+  width: 30%;
+  height: 30%;
+}
+
+
+
+
+
+  @media only screen and (min-width: 920px) {
 
 header img{
   width: 100%;
   height: 300px;
+}
+
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5em;
 }
 
 nav ul {
@@ -18,7 +91,7 @@ nav ul {
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-    width: 20%;
+    width: 0.5%;
   }
 
   nav li a {
@@ -76,13 +149,13 @@ table {
 
   /* styles for the th and td */
   th, td {
-    border: 0.1em solid #000000;
+    border: 0.1em solid #1E90FF;
     padding: 1em;
   }
 
   /* styles for the th */
   th {
-    background-color: #1d1d1c;
+    background-color: #1E90FF;
     color: #ffffff;
   }
 
@@ -119,10 +192,8 @@ table {
 
   /* query for desktop */
 
-  @media only screen and (min-width: 920px) {
 
-    aside{
-      float: inherit;
-    }
+
+
 
   }
