@@ -40,7 +40,7 @@ img{
 
   background-image: linear-gradient(to right,#D1E9F1, #1E90FF);
     border-radius: 2em 0 2em 0;
-    margin: 0.5%;
+    margin: 0.7%;
     padding: 0.5%;
     text-align: center;
     width: 95%
@@ -50,7 +50,7 @@ img{
 
   background-image: linear-gradient(to bottom,#D1E9F1, #1E90FF);
     border-radius: 2em 0 2em 0;
-    margin: 0.5%;
+    margin: 0.7%;
     padding: 0.5%;
     text-align: center;
     width: 95%
@@ -60,6 +60,18 @@ img{
 article img{
   width: 30%;
   height: 30%;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+footer{
+  clear: both;
+  background-image: linear-gradient(to right,#D1E9F1, #1E90FF);
+  text-align: center;
 }
 
 
@@ -135,6 +147,7 @@ nav ul {
     padding: 0.5%;
     text-align: center;
     width: 47%;
+    height: 350px;
 
 }
 
