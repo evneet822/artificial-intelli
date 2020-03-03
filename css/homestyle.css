@@ -84,4 +84,5 @@ nav ul {
   footer{
     clear: both;
     background-image: linear-gradient(to right,#D1E9F1, #1E90FF);
+    text-align: center;
   }
